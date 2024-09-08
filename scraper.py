@@ -48,7 +48,7 @@ def run_scraper():
     # svc = webdriver.ChromeService(executable_path=binary_path, options=options)
     driver = webdriver.Chrome(service=svc, options=options)
     play_soundcloud_track(driver)
-    time.sleep(300)
+    time.sleep(100)
 
     driver.quit()
 
